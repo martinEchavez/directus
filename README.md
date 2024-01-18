@@ -1,0 +1,34 @@
+## Install
+
+```sh
+git clone https://github.com/martinEchavez/directus.git
+```
+
+## Create .env
+```
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+
+PGADMIN_DEFAULT_EMAIL=
+PGADMIN_DEFAULT_PASSWORD=
+PGADMIN_ENTRY_PORT=
+PGADMIN_EXIT_PORT=
+DIRECTUS_KEY=
+DIRECTUS_SECRET=
+
+DB_CLIENT=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USER=
+DB_PASSWORD=
+
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
+```
+
+## Rum
+```sh
+docker compose up
+```
